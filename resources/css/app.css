@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
+
+body
+{
+    font-family: 'Camber', Sans-Serif;
+}
+
+.logo
+{
+    font-family: 'Radley Sans', Sans-Serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
 @tailwind utilities;
