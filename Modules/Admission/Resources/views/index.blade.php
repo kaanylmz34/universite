@@ -31,7 +31,17 @@
                             </div>                            
                         </div>
                         <div class="border-t p-6 text-center">
-                            <button type="submit" class="bg-blue-700 text-white py-4 block w-full">SEND REQUEST</button>
+                            <button type="submit" class="submit-apply-btn">
+                                <div class="svg-wrapper-1">
+                                    <div class="svg-wrapper">
+                                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z" fill="currentColor"></path>
+                                    </svg>
+                                    </div>
+                                </div>
+                                <span>SEND REQUEST</span>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -42,8 +52,8 @@
 
 <section id="introduction-sport-activites" class="h-[calc(100vh-120px)] bg-blue-100 text-blue-700 flex flex-col gap-4 items-center">
     <div class="bg-blue-700 text-white w-full py-12 text-center">
-        <div class="logo-font text-8xl">NSA SPORT MEMBERSHIP</div>
-        <div class="logo-font text-3xl">Our University has Official NSA Membership</div>
+        <div class="logo-font text-8xl drop-shadow-[12px_12px_0_rgba(0,0,0,.1)]">SPORT CLUB MEMBERSHIP</div>
+        <div class="logo-font text-3xl drop-shadow-[6px_6px_0_rgba(0,0,0,.1)]">Our University has Sport Club Membership</div>
     </div>
     <div class="h-full flex items-center">
         <div class="flex gap-8 mx-auto w-[75%] mt-12">
@@ -51,11 +61,15 @@
                 <img src="/stock/championship.png" alt="Our Basketball NSA Championship" class="rounded-full w-[256px] h-[256px]"/>
             </div>
             <div class="w-[100%] text-red-700">
-                <div class="text-6xl font-bold logo-font drop-shadow-[6px_6px_0_#FAAB2A]">The Universite 2017 NSA Basketball League Final Event Championship</div>
-                <div class="text-3xl italic mt-6">We won the final challenge that is incredible at 2017 NSA Basketball League.</div>
+                <div class="text-6xl font-bold logo-font drop-shadow-[6px_6px_0_#FAAB2A]">The Universite 2017 Basketball League Final Event Championship</div>
+                <div class="text-3xl italic mt-6">We won the final challenge that is incredible at 2017 Sport Club Basketball League.</div>
             </div>
         </div>
     </div>
+</section>
+
+<section id="introduction-library-facilities" class="h-[calc(100vh-120px)]">
+
 </section>
 
 @endsection

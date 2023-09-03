@@ -8,7 +8,7 @@
         <title>Module Admission</title>
     </head>
     <body>
-        <header class="bg-blue-900 text-white fixed w-full">
+        <header class="bg-blue-900 text-white fixed w-full z-100">
             <div class="container mx-auto flex gap-4">
                 <a href="/" class="logo text-4xl py-4 px-8 bg-red-700 text-white inline-block">
                     Universite
@@ -24,7 +24,7 @@
                 </div>
             </div>
         </header>
-        <div class="bg-white shadow-lg fixed w-full top-[72px]">
+        <div class="bg-white shadow-lg fixed w-full top-[72px] z-100">
             <div class="container [&>*]:py-4 flex gap-8 mx-auto text-xs text-slate-600">
                 <a href="#">AWARDS</a>
                 <a href="#">ACCOMPLISHMENTS</a>
