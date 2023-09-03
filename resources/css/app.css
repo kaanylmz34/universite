@@ -4,6 +4,12 @@
 body
 {
     font-family: 'Camber', Sans-Serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.logo-font
+{
+    font-family: 'Radley Sans', Sans-Serif;
 }
 
 .logo
