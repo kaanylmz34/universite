@@ -61,14 +61,14 @@
                 <img src="/stock/championship.png" alt="Our Basketball NSA Championship" class="rounded-full w-[256px] h-[256px]"/>
             </div>
             <div class="w-[100%] text-blue-900">
-                <div class="text-6xl font-bold logo-font drop-shadow-[6px_6px_0_#FAAB2A]">The Universite 2017 Basketball League Final Event Championship</div>
+                <div class="text-6xl font-bold logo-font drop-shadow-[6px_6px_0_#FAAB2A]"><span class="bg-blue-900 text-white">The Universite 2017 Basketball</span> League Final Event Championship</div>
                 <div class="text-3xl italic mt-6">We won the final challenge that is incredible at 2017 Sport Club Basketball League.</div>
             </div>
         </div>
     </div>
 </section>
 
-<section id="introduction-library-facilities" class="h-[calc(100vh-120px)] bg-[url(/public/stock/library.jpg)] filter-[hue-rotate(100deg)] bg-cover bg-center">
+<section id="introduction-library-facilities" class="h-[calc(100vh-120px)] bg-[url(/public/stock/library.jpg)] bg-cover bg-center">
     <div class="bg-gradient-to-b from-black to-transparent h-[100%]">
         <div class="py-12 flex gap-12 container mx-auto">
             <div class="text-white">
@@ -111,6 +111,32 @@
                 <div class="flex gap-6">
                     <button type="button" class="bg-transparent border-2 border-white px-6 py-4 rounded-xl hover:bg-white hover:text-blue-700 transition-colors">Visit Online Tour to Library</button>
                     <button type="button" class="border-2 border-white px-6 py-4 rounded-xl bg-white text-blue-700 hover:text-black transition-colors">Go to Online Library</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="introduction-research-areas" class="h-[calc(100vh-120px)] bg-[url(/public/stock/laboratory.jpg)] bg-cover bg-center">
+    <div class="bg-gradient-to-b from-sky-300 to-transparent h-[100%]">
+        <div class="py-12 flex gap-12 container mx-auto text-right h-full">
+            <div class="text-white w-full flex flex-col h-full">
+                <div class="font-bold italic text-6xl">WIDE RESEARCH FACILITIES</div>
+                <div class="font-semibold italic text-2xl">BEST #17. RESEARCH UNIVERSITY AROUND THE WORLD</div>
+                <div class="mt-auto order-1">
+                    <div class="text-2xl mb-2">With our wide research network and facilities, you can always access all resources that you want.</div>
+                    <div class="text-2xl mb-12">It also our experienced scholars will help you about your doctorate, masters or bachelors degree.</div>
+                </div>
+                <div class="flex gap-12 w-full justify-center mt-auto order-2">
+                    <a href="#" class="light-btn">
+                        EXPLORE BACHELOR'S PROGRAMS
+                    </a>
+                    <a href="#" class="light-btn">
+                        EXPLORE MASTER'S PROGRAMS
+                    </a>
+                    <a href="#" class="light-btn">
+                        EXPLORE DOCTORATE PROGRAMS
+                    </a>
                 </div>
             </div>
         </div>

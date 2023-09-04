@@ -74,6 +74,38 @@ transform: scale(0.95);
     background-blend-mode: multiply;
 }
 
+#introduction-research-areas
+{
+    background-color: #7dd3fc;
+    background-blend-mode: multiply;
+}
+
+.light-btn:before
+{
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,.3);
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    clip-path: polygon(0 0, 60% 0, 40% 100%, 0 100%);
+    transition: 500ms;
+}
+
+.light-btn
+{
+    @apply bg-transparent border-2 border-white px-6 py-4 rounded-full text-white relative;
+    overflow: hidden;
+}
+
+.light-btn:hover:before
+{
+    width: 500%;
+    transition: 500ms;
+}
+
 @keyframes fly-1 {
     from {
         transform: translateY(0.1em);
