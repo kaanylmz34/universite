@@ -36,5 +36,13 @@
         </div>
         <div class="h-[120px]"></div>
         @yield('content')
+        <footer class="bg-slate-800 text-white flex justify-center gap-12 [&>a]:py-6">
+            <a href="#">Contact Us</a>
+            <a href="#">Fax</a>
+            <a href="#">Admission Office</a>
+            <a href="#">Student Office</a>
+            <a href="#">Portal</a>
+            <a href="#">About Us</a>
+        </footer>
     </body>
 </html>
